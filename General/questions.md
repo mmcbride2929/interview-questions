@@ -40,9 +40,20 @@ ANSWER: my preferred IDE is VSCode. The reason being is because it has great plu
 - What is Flash of Unstyled Content? How do you avoid FOUC?
 - Explain what ARIA and screenreaders are, and how to make a website accessible.
 - Explain some of the pros and cons for CSS animations versus JavaScript animations.
+
 - What does CORS stand for and what issue does it address?
+
+ANSWER: CORS stands for "Cross-Origin Resource Sharing" The purpose of CORS is to allow or restrict the request made from a web page to a different domain depending on the response received from the target domain in the form of HTTP headers.
+
 - How did you handle a disagreement with your boss or your collaborator?
 - What resources do you use to learn about the latest in front end development and design?
 - What skills are needed to be a good front-end developer?
 - What role do you see yourself in?
+
 - Explain the difference between cookies, session storage, and local storage?
+
+ANSWER: Cookies are txt files stored on a users computer, and are sent to the server when the users make requests. Cookies generally store auth tokens and user preferences.
+
+session storage stores user data within the memory of the browser, and it only lasts as long as the user is on the client. once the user closes the browser all of the information is reset.
+
+local storage is stored within the client as well, and is still available when the user closes the client. the data is stored in key value pairs. usually what is stored is user preference, or cached data
